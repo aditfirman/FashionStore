@@ -1,0 +1,170 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+$primary-color : #F0B232;
+$title :'Playfair Display',serif;
+
+.navbar {
+    background-color: #171717 !important;
+}
+
+nav {
+
+    li {
+        margin-right: 50px;
+        font-weight: 400;
+
+        a {
+            color: white !important;
+        }
+
+        .active {
+            font-weight: 500 !important;
+            color: #F0B232 !important;
+        }
+
+        :hover {
+            font-weight: 500 !important;
+            color: #F0B232 !important;
+        }
+    }
+
+    .cart {
+        a {
+            text-decoration: none;
+            color: white;
+
+            :visited,
+            ::after {
+                color: white;
+            }
+
+            span {
+                color: #F0B232;
+            }
+        }
+    }
+}
+
+// section carousel
+.carousel {
+    background-color: #171717;
+    height: 450px;
+    color: white;
+    h1 {
+        font-family: 'Playfair Display', serif;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .btn-primary {
+        background-color: $primary-color;
+        padding: 8px 42px;
+
+        &:hover {
+            background-color: #ffaa00;
+            font-weight: 500;
+        }
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("../images/ic_arrow_left.svg");
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("../images/ic_arrow_right.svg");
+    }
+}
+
+// section list items
+.section-list-items {
+    background-color: #F6F7FB;
+    padding: 70px 0px;
+
+    .figure-caption {
+        h5 {
+            font-size: 22px;
+            font-weight: 400;
+            color: black;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 300px;
+            color: #B7B7B7;
+        }
+    }
+
+    .figure-img {
+        position: relative;
+
+        a {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 8px;
+            background-color: rgba(0, 0, 0, 0.7);
+            opacity: 0;
+            transition: opacity 0.3s;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .title {
+        h1 {
+            font-size: 28px;
+            font-family: $title;
+    }
+    
+    .carousel {
+        background-color: #F6F7FB !important;
+    }
+    
+}
+}
+
+// section designers
+.section-designer {
+    border-bottom: 1px solid #B7B7B7;
+    .title {
+        h1 {
+            font-size: 28px;
+            font-family: $title;
+        }
+    }
+
+    .figure {
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+        &:hover {
+            img {
+                
+                    border: 2px solid #1B2690;
+                
+            }
+        }
+    }
+}
+
+// footer
+footer {
+    .nav {
+      .nav-link {
+          color: #B7B7B7;
+          &:hover,.active{
+              color: #1B2690 ;
+              font-weight: 500;
+          }
+      }
+    }
+}

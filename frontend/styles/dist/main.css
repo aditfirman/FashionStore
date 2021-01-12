@@ -1,0 +1,122 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: #171717 !important;
+}
+
+nav li {
+  margin-right: 50px;
+  font-weight: 400;
+}
+nav li a {
+  color: white !important;
+}
+nav li .active {
+  font-weight: 500 !important;
+  color: #F0B232 !important;
+}
+nav li :hover {
+  font-weight: 500 !important;
+  color: #F0B232 !important;
+}
+nav .cart a {
+  text-decoration: none;
+  color: white;
+}
+nav .cart a :visited,
+nav .cart a ::after {
+  color: white;
+}
+nav .cart a span {
+  color: #F0B232;
+}
+
+.carousel {
+  background-color: #171717;
+  height: 450px;
+  color: white;
+}
+.carousel h1 {
+  font-family: "Playfair Display", serif;
+}
+.carousel p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.carousel .btn-primary {
+  background-color: #F0B232;
+  padding: 8px 42px;
+}
+.carousel .btn-primary:hover {
+  background-color: #ffaa00;
+  font-weight: 500;
+}
+.carousel .carousel-control-prev-icon {
+  background-image: url("../images/ic_arrow_left.svg");
+}
+.carousel .carousel-control-next-icon {
+  background-image: url("../images/ic_arrow_right.svg");
+}
+
+.section-list-items {
+  background-color: #F6F7FB;
+  padding: 70px 0px;
+}
+.section-list-items .figure-caption h5 {
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+}
+.section-list-items .figure-caption p {
+  font-size: 18px;
+  font-weight: 300px;
+  color: #B7B7B7;
+}
+.section-list-items .figure-img {
+  position: relative;
+}
+.section-list-items .figure-img a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.section-list-items .figure-img a:hover {
+  opacity: 1;
+}
+.section-list-items .title h1 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+}
+.section-list-items .title .carousel {
+  background-color: #F6F7FB !important;
+}
+
+.section-designer {
+  border-bottom: 1px solid #B7B7B7;
+}
+.section-designer .title h1 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+}
+.section-designer .figure a {
+  text-decoration: none;
+  color: #000000;
+}
+.section-designer .figure:hover img {
+  border: 2px solid #1B2690;
+}
+
+footer .nav .nav-link {
+  color: #B7B7B7;
+}
+footer .nav .nav-link:hover, footer .nav .nav-link .active {
+  color: #1B2690;
+  font-weight: 500;
+}
